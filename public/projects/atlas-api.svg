@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="background" x1="80" y1="20" x2="1090" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29203C"/>
+      <stop offset=".52" stop-color="#15131D"/>
+      <stop offset="1" stop-color="#0A1018"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="250" y1="120" x2="950" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#211D2D"/>
+      <stop offset="1" stop-color="#11151D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="430" y1="250" x2="880" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F276A8"/>
+      <stop offset="1" stop-color="#9878FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(490 370 -330 437 868 190)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9878FF" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#9878FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#background)" d="M0 0h1200v800H0z"/>
+  <path fill="url(#glow)" d="M0 0h1200v800H0z"/>
+  <path stroke="#FFF" stroke-opacity=".045" d="M0 120h1200M0 200h1200M0 280h1200M0 360h1200M0 440h1200M0 520h1200M0 600h1200M0 680h1200M120 0v800M240 0v800M360 0v800M480 0v800M600 0v800M720 0v800M840 0v800M960 0v800M1080 0v800"/>
+  <rect x="245" y="124" width="710" height="552" rx="20" fill="#000" fill-opacity=".4"/>
+  <rect x="220" y="100" width="710" height="552" rx="20" fill="url(#panel)" stroke="#FFF" stroke-opacity=".17"/>
+  <path stroke="#FFF" stroke-opacity=".1" d="M220 154h710"/>
+  <circle cx="248" cy="127" r="5" fill="#F276A8"/>
+  <circle cx="267" cy="127" r="5" fill="#E6B779"/>
+  <circle cx="286" cy="127" r="5" fill="#7FC99C"/>
+  <text x="320" y="132" fill="#B7ADBF" font-family="Arial,sans-serif" font-size="12">atlas / developer console</text>
+  <rect x="242" y="176" width="666" height="70" rx="12" fill="#FFF" fill-opacity=".035" stroke="#FFF" stroke-opacity=".08"/>
+  <text x="264" y="202" fill="#9D93A7" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">API HEALTH</text>
+  <circle cx="273" cy="224" r="5" fill="#79DBA2"/>
+  <text x="288" y="229" fill="#E9E3EC" font-family="Arial,sans-serif" font-size="13" font-weight="600">All systems operational</text>
+  <path d="M655 222c14-1 17-13 28-11 11 2 14 7 24 4 10-4 12-16 23-14 11 2 14 13 25 8 11-4 15-13 27-10 12 3 13 10 26 5 13-5 16-10 30-8" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <text x="814" y="215" fill="#83DCAA" font-family="Arial,sans-serif" font-size="10">99.99%</text>
+  <text x="814" y="231" fill="#827989" font-family="Arial,sans-serif" font-size="9">uptime</text>
+  <text x="246" y="290" fill="#F1EBF3" font-family="Arial,sans-serif" font-size="15" font-weight="600">API endpoints</text>
+  <text x="246" y="310" fill="#8E8795" font-family="Arial,sans-serif" font-size="11">Manage and monitor your services</text>
+  <rect x="741" y="274" width="166" height="32" rx="16" fill="#F276A8" fill-opacity=".14" stroke="#F276A8" stroke-opacity=".25"/>
+  <text x="764" y="294" fill="#FFC0D9" font-family="Arial,sans-serif" font-size="10">+ Create endpoint</text>
+  <rect x="242" y="332" width="666" height="52" rx="9" fill="#FFF" fill-opacity=".035"/>
+  <rect x="262" y="347" width="49" height="21" rx="5" fill="#75D8B0" fill-opacity=".14"/>
+  <text x="271" y="361" fill="#85E0B9" font-family="Arial,sans-serif" font-size="9" font-weight="600">GET</text>
+  <text x="329" y="361" fill="#E7E0EA" font-family="monospace" font-size="11">/v1/customers</text>
+  <text x="592" y="361" fill="#938A9A" font-family="Arial,sans-serif" font-size="10">List all customers</text>
+  <circle cx="840" cy="358" r="4" fill="#79DBA2"/>
+  <text x="852" y="362" fill="#A5B6A9" font-family="Arial,sans-serif" font-size="9">LIVE</text>
+  <rect x="242" y="394" width="666" height="52" rx="9" fill="#FFF" fill-opacity=".025"/>
+  <rect x="262" y="409" width="49" height="21" rx="5" fill="#7CB4FF" fill-opacity=".14"/>
+  <text x="271" y="423" fill="#91BEFF" font-family="Arial,sans-serif" font-size="9" font-weight="600">POST</text>
+  <text x="329" y="423" fill="#E7E0EA" font-family="monospace" font-size="11">/v1/orders</text>
+  <text x="592" y="423" fill="#938A9A" font-family="Arial,sans-serif" font-size="10">Create a new order</text>
+  <circle cx="840" cy="420" r="4" fill="#79DBA2"/>
+  <text x="852" y="424" fill="#A5B6A9" font-family="Arial,sans-serif" font-size="9">LIVE</text>
+  <rect x="242" y="456" width="666" height="52" rx="9" fill="#FFF" fill-opacity=".025"/>
+  <rect x="262" y="471" width="49" height="21" rx="5" fill="#7CB4FF" fill-opacity=".14"/>
+  <text x="271" y="485" fill="#91BEFF" font-family="Arial,sans-serif" font-size="9" font-weight="600">POST</text>
+  <text x="329" y="485" fill="#E7E0EA" font-family="monospace" font-size="11">/v1/auth/token</text>
+  <text x="592" y="485" fill="#938A9A" font-family="Arial,sans-serif" font-size="10">Generate access token</text>
+  <circle cx="840" cy="482" r="4" fill="#79DBA2"/>
+  <text x="852" y="486" fill="#A5B6A9" font-family="Arial,sans-serif" font-size="9">LIVE</text>
+  <rect x="242" y="532" width="202" height="94" rx="11" fill="#FFF" fill-opacity=".035" stroke="#FFF" stroke-opacity=".07"/>
+  <text x="260" y="557" fill="#9990A0" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">REQUESTS TODAY</text>
+  <text x="260" y="594" fill="#F2EDF4" font-family="Arial,sans-serif" font-size="24" font-weight="600">1.28M</text>
+  <text x="352" y="593" fill="#82DCA8" font-family="Arial,sans-serif" font-size="10">↗ 18%</text>
+  <rect x="457" y="532" width="202" height="94" rx="11" fill="#FFF" fill-opacity=".035" stroke="#FFF" stroke-opacity=".07"/>
+  <text x="475" y="557" fill="#9990A0" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">AVG. RESPONSE</text>
+  <text x="475" y="594" fill="#F2EDF4" font-family="Arial,sans-serif" font-size="24" font-weight="600">38 ms</text>
+  <rect x="672" y="532" width="236" height="94" rx="11" fill="#FFF" fill-opacity=".035" stroke="#FFF" stroke-opacity=".07"/>
+  <text x="690" y="557" fill="#9990A0" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">ERROR RATE</text>
+  <text x="690" y="594" fill="#F2EDF4" font-family="Arial,sans-serif" font-size="24" font-weight="600">0.02%</text>
+  <circle cx="1010" cy="174" r="74" fill="#9878FF" fill-opacity=".08"/>
+  <circle cx="1010" cy="174" r="45" stroke="url(#accent)" stroke-opacity=".62"/>
+  <circle cx="1010" cy="174" r="27" stroke="#FFF" stroke-opacity=".12"/>
+  <circle cx="1010" cy="174" r="6" fill="#F276A8"/>
+  <path d="M963 174h-26m120 0h-26M1010 127v-25m0 169v-25" stroke="#A89AC0" stroke-opacity=".55" stroke-linecap="round"/>
+  <circle cx="937" cy="174" r="3" fill="#9878FF"/>
+  <circle cx="1083" cy="174" r="3" fill="#F276A8"/>
+</svg>

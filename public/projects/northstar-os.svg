@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="10" x2="1080" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#192E39"/>
+      <stop offset=".56" stop-color="#11171D"/>
+      <stop offset="1" stop-color="#0A1016"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="308" y1="142" x2="940" y2="674" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#192129"/>
+      <stop offset="1" stop-color="#10161D"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="390" y1="0" x2="840" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CE0D0"/>
+      <stop offset="1" stop-color="#65A8E5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(530 300 -290 512 880 150)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#56C7CF" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#56C7CF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v800H0z"/>
+  <path fill="url(#glow)" d="M0 0h1200v800H0z"/>
+  <path stroke="#FFF" stroke-opacity=".045" d="M0 120h1200M0 200h1200M0 280h1200M0 360h1200M0 440h1200M0 520h1200M0 600h1200M0 680h1200M120 0v800M240 0v800M360 0v800M480 0v800M600 0v800M720 0v800M840 0v800M960 0v800M1080 0v800"/>
+  <rect x="294" y="112" width="674" height="566" rx="20" fill="#000" fill-opacity=".45"/>
+  <rect x="270" y="92" width="674" height="566" rx="20" fill="url(#panel)" stroke="#FFF" stroke-opacity=".17"/>
+  <path stroke="#FFF" stroke-opacity=".1" d="M270 146h674"/>
+  <circle cx="297" cy="119" r="5" fill="#F276A8"/>
+  <circle cx="316" cy="119" r="5" fill="#E6B779"/>
+  <circle cx="335" cy="119" r="5" fill="#7FC99C"/>
+  <text x="368" y="124" fill="#A9B7C0" font-family="Arial,sans-serif" font-size="12">northstar / infrastructure</text>
+  <rect x="294" y="168" width="626" height="64" rx="11" fill="#FFF" fill-opacity=".035" stroke="#FFF" stroke-opacity=".08"/>
+  <circle cx="326" cy="200" r="11" fill="#7CE0D0" fill-opacity=".2"/>
+  <circle cx="326" cy="200" r="4" fill="#7CE0D0"/>
+  <text x="350" y="196" fill="#EAF0F2" font-family="Arial,sans-serif" font-size="14" font-weight="600">All systems operational</text>
+  <text x="350" y="214" fill="#82939D" font-family="Arial,sans-serif" font-size="10">Last checked just now</text>
+  <rect x="820" y="187" width="78" height="25" rx="12.5" fill="#7CE0D0" fill-opacity=".12"/>
+  <text x="838" y="203" fill="#8CE6D6" font-family="Arial,sans-serif" font-size="10">HEALTHY</text>
+  <text x="294" y="278" fill="#E7EDF0" font-family="Arial,sans-serif" font-size="15" font-weight="600">Service topology</text>
+  <text x="294" y="298" fill="#85939C" font-family="Arial,sans-serif" font-size="11">Production environment · us-east-1</text>
+  <path d="M431 400h117m103 0h117M600 350v-42m0 144v63m-169-10v-77m337 77v-77" stroke="#648F9B" stroke-width="2" stroke-dasharray="5 6"/>
+  <rect x="543" y="342" width="114" height="114" rx="18" fill="#182B31" stroke="#74D6CA" stroke-opacity=".65"/>
+  <rect x="577" y="369" width="46" height="34" rx="6" fill="#7CE0D0" fill-opacity=".15" stroke="#7CE0D0" stroke-opacity=".7"/>
+  <path d="M585 379h30m-30 8h21" stroke="#8CE6D6" stroke-width="2" stroke-linecap="round"/>
+  <text x="577" y="423" fill="#E7EDF0" font-family="Arial,sans-serif" font-size="11" font-weight="600">API GATEWAY</text>
+  <rect x="330" y="365" width="101" height="70" rx="12" fill="#1A242E" stroke="#FFF" stroke-opacity=".15"/>
+  <circle cx="350" cy="386" r="5" fill="#75D4BD"/>
+  <text x="343" y="411" fill="#DDE5E9" font-family="Arial,sans-serif" font-size="10">WEB CLIENT</text>
+  <text x="343" y="425" fill="#7F909A" font-family="Arial,sans-serif" font-size="9">99.98% uptime</text>
+  <rect x="769" y="365" width="101" height="70" rx="12" fill="#1A242E" stroke="#FFF" stroke-opacity=".15"/>
+  <circle cx="789" cy="386" r="5" fill="#75D4BD"/>
+  <text x="782" y="411" fill="#DDE5E9" font-family="Arial,sans-serif" font-size="10">WORKER</text>
+  <text x="782" y="425" fill="#7F909A" font-family="Arial,sans-serif" font-size="9">12 jobs / sec</text>
+  <rect x="550" y="266" width="100" height="42" rx="10" fill="#1A242E" stroke="#FFF" stroke-opacity=".15"/>
+  <circle cx="570" cy="287" r="5" fill="#75D4BD"/>
+  <text x="583" y="291" fill="#DDE5E9" font-family="Arial,sans-serif" font-size="10">AUTH SERVICE</text>
+  <rect x="550" y="499" width="100" height="42" rx="10" fill="#1A242E" stroke="#FFF" stroke-opacity=".15"/>
+  <circle cx="570" cy="520" r="5" fill="#75D4BD"/>
+  <text x="583" y="524" fill="#DDE5E9" font-family="Arial,sans-serif" font-size="10">POSTGRES</text>
+  <rect x="294" y="574" width="190" height="54" rx="10" fill="#FFF" fill-opacity=".035"/>
+  <text x="310" y="596" fill="#82939D" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">REQUESTS TODAY</text>
+  <text x="310" y="616" fill="#EAF0F2" font-family="Arial,sans-serif" font-size="16" font-weight="600">2.4M</text>
+  <rect x="500" y="574" width="190" height="54" rx="10" fill="#FFF" fill-opacity=".035"/>
+  <text x="516" y="596" fill="#82939D" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">AVG. LATENCY</text>
+  <text x="516" y="616" fill="#8CE6D6" font-family="Arial,sans-serif" font-size="16" font-weight="600">42 ms</text>
+  <rect x="706" y="574" width="214" height="54" rx="10" fill="#FFF" fill-opacity=".035"/>
+  <text x="722" y="596" fill="#82939D" font-family="Arial,sans-serif" font-size="9" letter-spacing="1">DEPLOYMENT</text>
+  <text x="722" y="616" fill="#EAF0F2" font-family="Arial,sans-serif" font-size="13">v2.8.4 · 8 minutes ago</text>
+  <circle cx="1010" cy="156" r="68" fill="#7CE0D0" fill-opacity=".08"/>
+  <circle cx="1010" cy="156" r="39" stroke="url(#cyan)" stroke-opacity=".65"/>
+  <circle cx="1010" cy="156" r="7" fill="#7CE0D0"/>
+</svg>

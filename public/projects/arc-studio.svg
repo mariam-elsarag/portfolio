@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="20" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#211A38"/>
+      <stop offset=".55" stop-color="#18131F"/>
+      <stop offset="1" stop-color="#0B0B12"/>
+    </linearGradient>
+    <linearGradient id="orb" x1="425" y1="220" x2="730" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9C6DF"/>
+      <stop offset=".42" stop-color="#C590F4"/>
+      <stop offset="1" stop-color="#7466D8"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="180" y1="420" x2="440" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DE9C7D"/>
+      <stop offset="1" stop-color="#784A58"/>
+    </linearGradient>
+    <linearGradient id="tile2" x1="770" y1="280" x2="1080" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8A0E8"/>
+      <stop offset="1" stop-color="#555184"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(580 390 -315 468 700 310)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A778EE" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#A778EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v800H0z"/>
+  <path fill="url(#glow)" d="M0 0h1200v800H0z"/>
+  <path stroke="#FFF" stroke-opacity=".045" d="M0 130h1200M0 210h1200M0 290h1200M0 370h1200M0 450h1200M0 530h1200M0 610h1200M0 690h1200M120 0v800M240 0v800M360 0v800M480 0v800M600 0v800M720 0v800M840 0v800M960 0v800M1080 0v800"/>
+  <rect x="112" y="105" width="976" height="590" rx="24" fill="#111017" fill-opacity=".88" stroke="#FFF" stroke-opacity=".16"/>
+  <path stroke="#FFF" stroke-opacity=".1" d="M112 166h976"/>
+  <circle cx="145" cy="136" r="5" fill="#F276A8"/>
+  <circle cx="164" cy="136" r="5" fill="#E6B779"/>
+  <circle cx="183" cy="136" r="5" fill="#7FC99C"/>
+  <text x="220" y="141" fill="#B7ADBF" font-family="Arial,sans-serif" font-size="12">Arc Studio — a place for ideas</text>
+  <text x="163" y="224" fill="#B6A9C7" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">INDEPENDENT BY NATURE</text>
+  <text x="158" y="293" fill="#F7F1F8" font-family="Georgia,serif" font-size="56" letter-spacing="-2">Make room</text>
+  <text x="158" y="352" fill="#F7F1F8" font-family="Georgia,serif" font-size="56" letter-spacing="-2">for <tspan fill="#D19BF2" font-style="italic">wonder.</tspan></text>
+  <text x="162" y="390" fill="#A59BAA" font-family="Arial,sans-serif" font-size="13">Tools and community for the next generation</text>
+  <text x="162" y="410" fill="#A59BAA" font-family="Arial,sans-serif" font-size="13">of independent creative minds.</text>
+  <rect x="162" y="442" width="148" height="42" rx="21" fill="#D9B2F2"/>
+  <text x="186" y="468" fill="#21172C" font-family="Arial,sans-serif" font-size="12" font-weight="600">Explore the studio</text>
+  <circle cx="578" cy="420" r="172" fill="#8D6BCA" fill-opacity=".12"/>
+  <circle cx="578" cy="420" r="134" fill="url(#orb)"/>
+  <path d="M500 433c51-120 161-130 204-87-27 102-107 166-180 146-23-6-35-25-24-59Z" fill="#F7D9F0" fill-opacity=".42"/>
+  <path d="M478 375c42-79 135-112 207-72" stroke="#FFF" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/>
+  <rect x="762" y="214" width="248" height="189" rx="13" transform="rotate(7 762 214)" fill="url(#tile2)"/>
+  <circle cx="903" cy="298" r="43" fill="#E6D8F8" fill-opacity=".8"/>
+  <path d="M819 350c21-43 48-61 82-54 30 6 44 29 59 65H819v-11Z" fill="#383453" fill-opacity=".7"/>
+  <text x="788" y="244" fill="#FFF" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">OBJECTS &amp; FORM</text>
+  <rect x="757" y="468" width="228" height="150" rx="13" transform="rotate(-6 757 468)" fill="url(#tile)"/>
+  <path d="M792 535c35-45 69-53 101-24 22 20 39 51 65 50 15 0 24-7 38-24v69H790l2-71Z" fill="#F4C5A7" fill-opacity=".72"/>
+  <circle cx="869" cy="524" r="24" fill="#F3D2B8"/>
+  <text x="783" y="495" fill="#FFF" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">FIELD NOTES Nº 08</text>
+  <rect x="167" y="558" width="238" height="74" rx="12" fill="#FFF" fill-opacity=".045" stroke="#FFF" stroke-opacity=".1"/>
+  <circle cx="199" cy="595" r="17" fill="#D9B2F2" fill-opacity=".2"/>
+  <path d="m193 595 5 5 9-11" stroke="#E5C7F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="229" y="591" fill="#EDE5F0" font-family="Arial,sans-serif" font-size="12" font-weight="600">Made for makers</text>
+  <text x="229" y="610" fill="#9A909F" font-family="Arial,sans-serif" font-size="10">Your ideas belong here.</text>
+</svg>

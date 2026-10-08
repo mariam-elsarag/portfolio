@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="0" x2="1100" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36252D"/>
+      <stop offset=".5" stop-color="#1A151A"/>
+      <stop offset="1" stop-color="#0D1115"/>
+    </linearGradient>
+    <linearGradient id="product" x1="685" y1="210" x2="990" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8B9A7"/>
+      <stop offset="1" stop-color="#986C69"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="785" y1="250" x2="962" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5D2BE"/>
+      <stop offset="1" stop-color="#B77D79"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(450 330 -298 406 900 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F276A8" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#F276A8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v800H0z"/>
+  <path fill="url(#glow)" d="M0 0h1200v800H0z"/>
+  <path stroke="#FFF" stroke-opacity=".04" d="M0 120h1200M0 200h1200M0 280h1200M0 360h1200M0 440h1200M0 520h1200M0 600h1200M0 680h1200M120 0v800M240 0v800M360 0v800M480 0v800M600 0v800M720 0v800M840 0v800M960 0v800M1080 0v800"/>
+  <rect x="125" y="102" width="950" height="596" rx="24" fill="#121216" fill-opacity=".9" stroke="#FFF" stroke-opacity=".15"/>
+  <path stroke="#FFF" stroke-opacity=".1" d="M125 158h950"/>
+  <circle cx="156" cy="130" r="5" fill="#F276A8"/>
+  <circle cx="175" cy="130" r="5" fill="#E6B779"/>
+  <circle cx="194" cy="130" r="5" fill="#7FC99C"/>
+  <text x="230" y="135" fill="#B6A9B0" font-family="Arial,sans-serif" font-size="12">FORM &amp; FIELD — objects for everyday</text>
+  <text x="183" y="216" fill="#D6AFB5" font-family="Arial,sans-serif" font-size="10" letter-spacing="3">THE DAILY EDIT</text>
+  <text x="178" y="288" fill="#F8F0EC" font-family="Georgia,serif" font-size="54" letter-spacing="-2">Thoughtful things,</text>
+  <text x="178" y="349" fill="#F8F0EC" font-family="Georgia,serif" font-size="54" letter-spacing="-2">made to <tspan fill="#E8AFC4" font-style="italic">stay.</tspan></text>
+  <text x="183" y="389" fill="#AA9DA2" font-family="Arial,sans-serif" font-size="13">Small-batch pieces for slower, more intentional living.</text>
+  <rect x="183" y="420" width="143" height="42" rx="21" fill="#E7B5C5"/>
+  <text x="207" y="446" fill="#2A1D24" font-family="Arial,sans-serif" font-size="12" font-weight="600">Shop the edit</text>
+  <text x="183" y="530" fill="#EFE6E9" font-family="Arial,sans-serif" font-size="12" font-weight="600">01 / CERAMICS</text>
+  <text x="183" y="550" fill="#94888E" font-family="Arial,sans-serif" font-size="10">Hand-finished, made to be used.</text>
+  <path d="M700 583h340" stroke="#FFF" stroke-opacity=".1"/>
+  <path d="M735 490c0-30 24-54 54-54s54 24 54 54v94H735v-94Z" fill="url(#product)"/>
+  <path d="M754 476c0-20 16-36 36-36h1c20 0 36 16 36 36" stroke="#F4D9D1" stroke-opacity=".7" stroke-width="7"/>
+  <path d="M843 509c0-22 18-40 40-40h63c22 0 40 18 40 40v75H843v-75Z" fill="url(#accent)"/>
+  <path d="M867 500v-8c0-15 12-27 27-27h40c15 0 27 12 27 27v8" stroke="#F8D5CA" stroke-opacity=".75" stroke-width="7"/>
+  <ellipse cx="800" cy="586" rx="80" ry="12" fill="#000" fill-opacity=".25"/>
+  <ellipse cx="915" cy="586" rx="92" ry="12" fill="#000" fill-opacity=".25"/>
+  <rect x="831" y="213" width="182" height="52" rx="12" fill="#FFF" fill-opacity=".06" stroke="#FFF" stroke-opacity=".12"/>
+  <circle cx="858" cy="239" r="12" fill="#E8B9A7" fill-opacity=".3"/>
+  <text x="880" y="236" fill="#F3E9EC" font-family="Arial,sans-serif" font-size="10">MADE WITH INTENTION</text>
+  <text x="880" y="251" fill="#A797A0" font-family="Arial,sans-serif" font-size="9">Designed to last.</text>
+</svg>
